@@ -3,9 +3,9 @@ import classes from "./Search.module.css";
 import Navbar from "../components/Navbar";
 import { Autocomplete } from "@mantine/core";
 import { IoSearchSharp } from "react-icons/io5";
-import logoIcon from "../assets/logo-search-bar.png";
+import logoIcon from "../../public/logo-search-bar.png";
 import FruitBox from "../components/FruitBox";
-import cherry from "../assets/cherry.png";
+import cherry from "../../public/cherry.png";
 import axios from "axios";
 
 type Fruit = {

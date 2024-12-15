@@ -5,10 +5,10 @@ import Navbar from "../components/Navbar";
 import { Autocomplete, Select } from "@mantine/core";
 import { LuArrowDownUp } from "react-icons/lu";
 import { IoSearchSharp } from "react-icons/io5";
-import logoIcon from "../assets/logo-search-bar.png";
+import logoIcon from "../../public/logo-search-bar.png";
 import FruitBox from "../components/FruitBox";
 import AlcoholBox from "../components/AlcoholicBox";
-import cherry from "../assets/cherry.png";
+import cherry from "../../public/cherry.png";
 import axios from "axios";
 
 type Fruit = {

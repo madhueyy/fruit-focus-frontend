@@ -11,7 +11,7 @@ import {
 import { FaArrowLeft } from "react-icons/fa6";
 import Navbar from "../components/Navbar";
 import FruitStyles from "./Fruit.module.css";
-import FruitImage from "../assets/tempfruit.avif";
+import FruitImage from "../../public/tempfruit.avif";
 import axios from "axios";
 import NutrientBlock from "../components/NutrientBlock";
 

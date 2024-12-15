@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { Text, Button } from "@mantine/core";
-import ausMap from "../assets/aus-map.png";
-import nswVector from "../assets/nsw-vector.png";
-import nswVectorPurple from "../assets/nsw-vector-purple.png";
+import ausMap from "../../public/aus-map.png";
+import nswVector from "../../public/nsw-vector.png";
+import nswVectorPurple from "../../public/nsw-vector-purple.png";
 import classes from "./StateMap.module.css";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
@@ -15,7 +15,6 @@ function StateMap() {
 
   const handleClick = (state) => {
     if (state === "NSW") {
-      
       setCurrImage(nswVectorPurple);
       setSelectedState(state);
       setIsSelected(true);
