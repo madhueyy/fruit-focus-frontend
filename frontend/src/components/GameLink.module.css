@@ -23,7 +23,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../../public/suika-game-nintendo-switch-front-cover.jpg);
+  background-image: url(../../suika-game-nintendo-switch-front-cover.jpg);
   background-size: cover;
   background-position: center;
   transition: opacity 0.25s ease-in;
