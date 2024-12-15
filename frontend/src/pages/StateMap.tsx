@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { Text, Button } from "@mantine/core";
-import ausMap from "../../src/aus-map.png";
-import nswVector from "../../src/nsw-vector.png";
-import nswVectorPurple from "../../src/nsw-vector-purple.png";
+import ausMap from "../../public/aus-map.png";
+import nswVector from "../../public/nsw-vector.png";
+import nswVectorPurple from "../../public/nsw-vector-purple.png";
 import classes from "./StateMap.module.css";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";

@@ -6,9 +6,9 @@ import classes from "./SeasonalFruits.module.css";
 import { Autocomplete, Box, Button, Select } from "@mantine/core";
 import { LuArrowDownUp } from "react-icons/lu";
 import { IoSearchSharp } from "react-icons/io5";
-import logoIcon from "../../src/logo-search-bar.png";
+import logoIcon from "../../public/logo-search-bar.png";
 import FruitBox from "../components/FruitBox";
-import cherry from "../../src/cherry.png";
+import cherry from "../../public/cherry.png";
 
 type Fruit = {
   variant_name: string;
