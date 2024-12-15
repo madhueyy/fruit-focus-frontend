@@ -24,7 +24,7 @@ function BasicMap() {
         h={"100%"}
         w="100%"
         fit="contain"
-        src="../../public/map_of_aus_purple.png"
+        src="../../src/map_of_aus_purple.png"
       />
       <Overlay
         color="#fff"

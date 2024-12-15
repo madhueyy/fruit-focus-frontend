@@ -1,7 +1,7 @@
 import React from "react";
 import { LeadGrid } from "../components/LeadGrid";
 import "../App.css";
-import logo from "../../public/logo_fruit_o.png";
+import logo from "../../src/logo_fruit_o.png";
 import "./Home.css";
 import Navbar from "../components/Navbar";
 

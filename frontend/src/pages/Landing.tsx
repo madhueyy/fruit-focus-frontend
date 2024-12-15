@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, Button } from "@mantine/core";
 import { FaArrowRight } from "react-icons/fa6";
-import landing_logo from "../../public/landing_logo.png";
+import landing_logo from "../../src/landing_logo.png";
 import "./Landing.css";
 import { Link } from "react-router-dom";
 
