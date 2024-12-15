@@ -1,0 +1,52 @@
+.hero-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-container {
+  width: 100%;
+  height: 100%;
+}
+
+.landing_logo {
+  width: 32vw;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Don't remove the !important pwease >.< */
+.button1 {
+  transition: 0.1s;
+  color: white !important;
+  background-color: #7a71ca !important;
+}
+
+.button1:hover {
+  color: #7a71ca !important;
+  background-color: white !important;
+  border-color: white;
+  transition: 0.1s;
+}
+
+.button2 {
+  color: white !important;
+  border-color: white !important;
+  border-width: 3px !important;
+  transition: 0.1s;
+}
+
+.button2:hover {
+  color: #7a71ca !important;
+  border-color: #7a71ca !important;
+
+  transition: 0.1s;
+}
